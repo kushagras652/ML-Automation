@@ -6,3 +6,5 @@ langgraph
 openai
 matplotlib
 seaborn
+langchain
+langchain-openai
