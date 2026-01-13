@@ -8,4 +8,4 @@ matplotlib
 seaborn
 langchain
 langchain-openai
-dotenv
+python-dotenv
