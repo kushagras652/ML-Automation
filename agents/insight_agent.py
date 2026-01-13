@@ -1,13 +1,12 @@
 # import json
 # from openai import OpenAI
-
+from dotenv import load_dotenv
+load_dotenv()
 from langchain_openai import ChatOpenAI
 from langchain.messages import SystemMessage,HumanMessage
 import json
-from dotenv import load_dotenv
 
 
-load_dotenv()
 model=ChatOpenAI(
     model='gpt-4.1-mini',
     temperature=0.3
